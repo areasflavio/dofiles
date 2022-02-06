@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+## Launch Nitrogen wallpaper
+nitrogen --restore &
+
+## Launch Polybar
+bash $HOME/.config/polybar/simple/launch.sh --colorblocks
