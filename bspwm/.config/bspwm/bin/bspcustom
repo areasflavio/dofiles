@@ -4,4 +4,10 @@
 nitrogen --restore &
 
 ## Launch Polybar
-bash $HOME/.config/polybar/simple/launch.sh --colorblocks
+bash $HOME/.config/polybar/simple/launch.sh --colorblocks &
+
+## Picom
+picom --config ~/.config/picom.conf &
+
+## Redshift
+redshift &
